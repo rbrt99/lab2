@@ -3,6 +3,8 @@
 
 int function(int x){
 	x=x-2;
+	if(x<=0)
+	 	break;
 	x=function(x);
 	return x;
 }
